@@ -1,0 +1,60 @@
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.hero1 {
+    background-image: url("/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero2 {
+    background-image: url("/hero2.jpg");
+    background-size: cover;
+}
+.hero3 {
+    background-image: url("/hero3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav1 {
+    background-image: url("/uk.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav2 {
+    background-image: url("/usa.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav3 {
+    background-image: url("/canada.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bgimage {
+    background-image: url("/01.webp");
+    background-size: cover;
+    background-position: center;
+}
+
