@@ -176,7 +176,7 @@ const Nav = () => {
       {isOpen && (
         <div
           ref={dropdownRef}
-          className={`absolute top-[75%] right-0 mt-2 w-[900px] h-[235px] bg-white text-slate-700  transition-all duration-300 ease-in-out transform origin-top-right shadow-md cursor-pointer flex items-center ${
+          className={`absolute top-[75%] right-[20px] md:right-[60px] lg:right-[180px] mt-2 w-[900px] h-[235px] bg-white text-slate-700  transition-all duration-300 ease-in-out transform origin-top-right shadow-md cursor-pointer flex items-center ${
             isAnimatingOut ? "scale-90 opacity-0" : "scale-100 opacity-100"
           }`}
         >
